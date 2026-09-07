@@ -1,0 +1,30 @@
+{
+  "name": "html-to-video-converter",
+  "version": "1.0.0",
+  "description": "Convert HTML pages with images to MP4 videos with background music",
+  "main": "converter.js",
+  "scripts": {
+    "start": "node converter.js",
+    "convert": "node converter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "video",
+    "mp4",
+    "converter",
+    "puppeteer",
+    "ffmpeg"
+  ],
+  "author": "H.R. Chandrashekar",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
